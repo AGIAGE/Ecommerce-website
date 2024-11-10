@@ -1,0 +1,329 @@
+body {
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER SECTION */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+}
+
+header h1{
+    color: brown;
+}
+
+header h1:hover{
+    color: white;
+}
+
+header ul{
+    display: flex;  
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li a:hover{
+    color: brown;
+    font-weight: bold;
+   box-shadow: 4px 4px 4px 4px;
+}
+
+
+/* SECTION 1 */
+#section1{
+    background-image: url(image\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 14rem;
+}
+
+#section1 h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+#section1 p{
+    color: white;
+    padding: 20px;
+}
+
+#section1 button{
+    color: white;
+    background-color:black;
+    border: 2px solid white;
+    outline: none;
+    margin-top: 10px;
+    padding: 12px;
+    width: 8rem;
+}
+
+#section1 button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+/* SECTION 2  */
+#section2{
+    text-align: center;
+    padding: 10rem 0;
+}
+#section2 h1{
+    padding-top: 30px 20px;
+}
+#section2 .section2_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#section2 .section2_row button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+#section2 .section2_row button:hover{
+    color: white;
+    background-color: black;
+}
+
+#section2 .section2_row .col1{
+    padding-top: 40px;
+}
+
+#section2 .section2_row .col1 h4{
+    padding-top: 20px;
+}
+
+#section2 .section2_row .col1 p{
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+
+#section2 .section2_row .col2{
+    padding: 0;
+    text-align: center;
+}
+
+#section2 .section2_row .col3{
+    padding: 0;
+    text-align: center;
+}
+
+.shopall{
+    padding: 50px;
+}
+
+.shopall button{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width: 8rem;
+    border-radius: 5px;
+}
+
+.shopall button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+/* SECTION 3 */
+#section3{
+    text-align: center;
+    background-color:   rgb(241, 240, 240);
+    color: black;
+   padding: 5rem;
+}
+
+#section3 h2{
+    font-size: 2rem;
+}
+#section3 .about_paragraph{
+    font-size: 1.3rem;
+    padding:30px 13rem;
+    line-height: 1.5;
+}
+
+
+#section3 .section3_row{
+    display: flex;
+    padding: 50px 0;
+}
+
+#section3 .section3_row img{
+    height: 220px;
+    border-radius: 20rem;
+
+}
+
+#section3 .section3_row div{
+    /* box-shadow: 0 3px 10px 3px; */
+    border-radius: 10px;
+    outline: none;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+#section3 .section3_row p{
+    padding: 20px 0;
+}
+
+
+
+/* SECTION 4 */
+#section4{
+    text-align: center;
+    background-color:   rgb(175, 102, 102);
+    color: black;
+   padding: 5rem;
+}
+
+#section4 h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+#section4 p{
+    font-size: 1.3rem;
+    /* padding:30px 13rem; */
+    line-height: 1.5;
+} 
+
+#section4 .section4_row{
+    background-color: rgb(15, 17, 17);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+#section4 .section4_row div{
+    margin: 50px 30px;
+}
+
+#section4 .section4_row_col1{
+    
+    border-right: 3px solid rgb(175, 102, 102);
+    width: 40rem;    
+}
+
+#section4 .section4_row_col2{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+#section4 .section4_row input{
+    padding: 15px;
+    width: 300px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#section4 .section4_row textarea{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#section4 .section4_row button{
+    background-color: rgb(175, 102, 102);
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 15px;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#section4 .section4_row button:hover{
+    background-color: black;
+    color: white;
+     border: 2px solid white;
+}
+
+
+/* FOOTER SECTION */
+footer{
+    color: rgb(208, 198, 198);
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 7rem;
+}
+
+footer .col1, .col2, .col3, .col4{
+    text-align: left;
+    margin: 3rem;
+    line-height: 2;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover{
+     color: brown;
+}
+
+.col4 .email{
+    font-weight: bolder;
+    padding: 10px;
+    width: 19rem;
+    outline: none;
+}
+
+.col4 .subscribe_button{
+    background-color: white;
+    font-size: larger;
+    padding: 10px;
+    width: 10rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.col4 .subscribe_button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.alright_Reserve{
+    color: white;
+    background-color: rgb(80, 79, 79);
+    text-align: center;
+    padding: 7px;
+}
